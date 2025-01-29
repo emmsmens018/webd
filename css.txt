@@ -1,0 +1,72 @@
+body {
+    margin: 0;  
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    height: 75px; 
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  
+  header {
+    height: 500px; 
+    background: lightblue; 
+    background-image: url(pictures/pexels-julie-aagaard-1426718.jpg);
+    background-image: cover;
+  }
+  
+  section {
+    height: 500px;
+    background: white; 
+    margin: 75px 100px; 
+  }
+  
+  p {
+    height: 200px; 
+    background: darkslategray; 
+    margin-bottom: 75px; 
+    border-radius: 1em;
+  }
+  
+  #flex-container {
+    display: flex; 
+    justify-content: space-between;
+  }
+  
+  .flex-item {
+    background-color: darkgoldenrod; 
+    width: 49%; 
+    margin: 2px; 
+    height: 250px;
+    border-radius: 1em;
+  }
+  
+  footer {
+    height: 100px;
+    background: black;
+  }
+  
+  #logo {
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto', 'sans-serif';
+  }
+  #links {
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 45px;
+  }
+  a:hover {
+    cursor: pointer;
+    color: darkgoldenrod;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
